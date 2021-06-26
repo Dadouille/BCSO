@@ -1,0 +1,129 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Avg/Wave.svg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+  }
+
+  
+  .texte1 {
+    font-size: 75px;
+    padding-top: 1000px; 
+    margin: 0 auto;
+    text-align: center;
+    color: #f1f1f1;
+    display: block;
+  }
+  
+  .etoile {
+    width: 25vw;
+    max-width: 1250px;
+    min-width: 450px;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .carte{
+      padding-top: 700px;
+  }
+
+  .pranger{
+    width: 15vw;
+    max-width: 1250px;
+    min-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  ul{
+    font-size: 50px;
+    margin: 7px 0;
+    color: #f1f1f1;
+    display: block;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .dropdown {
+  margin:  0 auto;
+  text-align: center;
+  max-width: 400px;
+  height: 95px;
+  border-radius: 55px;
+  color: #f1f1f1;
+  background: rgb(42, 43, 41);
+  transition: height 0.4s ease-in-out;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.bloc-top {
+  text-align: center;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(13, 14, 13, 0.863);
+  color: #f1f1f1;
+  cursor: pointer;
+  border-radius:  55px;
+}
+.bloc-top img , .bloc-top1 img {
+  width: 20px
+}
+
+.bloc-links {
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.bloc-links li, .bloc-links1 li  {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.card-header{
+    font-size: 50px;
+}
+.card{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #f1f1f1;
+}
+.icone{
+    width: 50px;
+}
+
+.btn1 {
+    height: 100px;
+    width: 100px;
+    background: rgb(79, 248, 102);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+  }
+
+  .btn2{
+    width: 300px;
+  }
